@@ -1,0 +1,4 @@
+analysis_01 ANSWERS
+
+1. expTwo: return ((x + y) == z) && (z % 2 == 0) || ((x * y) % (z + 1)) && (x * y > 0)
+2. expOne: return a * a + b * b >= b * c % c

@@ -1,0 +1,12 @@
+debugging_01 ANSWERS
+
+ 1. Line 18 -> void identifySlope (double dSlope)
+ 2. Line 20 -> dSlope > 0
+ 3. Line 27 -> printf("Negative Slope!");
+ 4. Line 32 -> return (y2 - y1) * 1.0 / (x2 - x1);
+ 5. Line 37 -> int x1, y1;
+ 6. Line 41 -> scanf("%d %d", &x1, &y1);
+ 7. Line 43 -> scanf("%d %d", &x2, &y2);
+ 8. Line 46 -> x1 == x2
+ 9. Line 49 -> identifySlope(computeSlope(x1, y1, x2, y2));
+10. Line 51 -> return 0;
