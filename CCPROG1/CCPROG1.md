@@ -12,11 +12,11 @@
 ---
 ### Reviewer Shortcuts:
 
-CCPROG1
+[CCPROG1](https://github.com/dlsupts/pts-reviewer-repository/tree/main/CCPROG1)
 
-CCPROG2
+[CCPROG2](https://github.com/dlsupts/pts-reviewer-repository/tree/main/CCPROG2)
 
-CCPROG3
+[CCPROG3](https://github.com/dlsupts/pts-reviewer-repository/tree/main/CCPROG3)
 
 ### Google Drive Repository:
 
