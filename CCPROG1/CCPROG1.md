@@ -8,6 +8,10 @@
 | Conditionals 01 | A student tutorial video prepared by PTS Tutor Nilo Jatico II on the conditional constructs. | Website | [Conditionals 01](https://www.youtube.com/watch?v=tqYhTYuBjpU&list=PLE17fqz4FCEHD-yuZjU8PSZZeW_f5EXXs&index=1) |
 | Conditionals 02 | A student tutorial video prepared by PTS Tutor Nilo Jatico II on the continuation on conditional constructs. | Website | [Conditionals 02](https://www.youtube.com/watch?v=GIKVStd-LwE&list=PLE17fqz4FCEHD-yuZjU8PSZZeW_f5EXXs&index=2) |
 | Iterative Statements | A student tutorial video prepared by PTS Tutor Jonathan Bueno on the different iterative constructs. | Website | [Iterative Statements](https://www.youtube.com/watch?v=SvGvdSkY5zg&list=PLE17fqz4FCEH_bqnjR_qVZpI9kfjhCNkr&index=6) |
+| Midterm Departmental Exams | A collection of exercises in basic I/O, Functions, C Expressions, and Conditional Constructs. | Folder | [\[M\] Departmental](https://github.com/dlsupts/pts-reviewer-repository/tree/main/CCPROG1/%5BM%5D%20Departmental) |
+| Midterm Hands-On Exams | A collection of programming problems in basic I/O, Functions, C Expressions, and Conditional Constructs. | Folder | [\[M\] Hands-On](https://github.com/dlsupts/pts-reviewer-repository/tree/main/CCPROG1/%5BM%5D%20Hands-On) |
+| Finals Departmental Exams | A collection of exercises in previous topics, Pointers, and Iterative Constructs. | Folder | *soon* |
+| Finals Hands-On Exams | A collection of programming problems in previous topics, Pointers, and Iterative Constructs. | Folder | [\[F\] Hands-On](https://github.com/dlsupts/pts-reviewer-repository/tree/main/CCPROG1/%5BF%5D%20Hands-On) |
 
 ---
 ### Reviewer Shortcuts:
