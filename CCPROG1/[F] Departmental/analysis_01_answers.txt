@@ -1,0 +1,8 @@
+analysis_01 ANSWERS
+
+1. 10
+2. 10
+3. unknown() acts a boolean function, where it returns true (1) if all the digits in nVal are less than the value of nInput and false (0) if otherwise.
+4. The program displays the first 10 numbers whose digits are less than the value of nInput, starting from 0. This program specifically lists down the first 10 numbers in a number system, with the base equal to nInput.
+
+(Notice how if nInput = 2, it outputs binary numbers, and if nInput = 10, if outputs decimal numbers.)

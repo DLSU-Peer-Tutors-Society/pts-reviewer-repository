@@ -1,0 +1,9 @@
+debugging_01 ANSWERS
+
+1. Line 37 -> while (n > 0) {
+2. Line 38 -> nSum += n % 10;
+3. Line 39 -> n /= 10;
+4. Line 47 -> nSum = 0;
+5. Line 51 -> nSum = getSum(*pNum);
+6. Line 53 -> if(*pNum % nSum == 0)
+7. Line 54 -> nSum = -1;
