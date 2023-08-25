@@ -1,0 +1,7 @@
+analysis_02 ANSWERS
+
+1. Lines 61 to 69
+2. *pA == *pB
+3. Possible Answer: 1 2 -1
+4. Possible Answer: 0 0 0
+5. nOne = 13, nTwo = -9
