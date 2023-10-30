@@ -1,0 +1,99 @@
+﻿CCPROG1 Reviewer - Tracing (T1 SY23-24)
+
+
+Concepts Tackled: functions, conditionals, operators
+
+
+Background:
+
+
+A fundamental theorem in number theory is "Fermat's little theorem." The theorem is useful for computing modulo prime numbers. Prime numbers play a significant role in cryptography, encryption, and of course, mathematics and computing.
+
+
+The theorem states that if p is a prime number, then for any integer of , the number  
+() is an integer multiple of p.
+                    
+             is a multiple of p
+             // Modular arithmetic form
+
+
+However, if  is not divisible by p, the theorem states that  is an integer multiple of p.
+
+
+Instructions:
+Given the function nFermat(), trace the program to determine the output of main().
+
+
+You may assume that all inputs satisfy the special case (a is not divisible) of the theorem.
+
+
+In doing so, you must provide the answers the following questions:
+    
+1. Given 2, 3, 1 as inputs. What does printf() in line 23 output?
+2. Given 2, 3, 1 as inputs. What is the value of the variable in line 17?
+3. Given 2, 3, 2 as inputs. What is the output of the program?
+4. Given 2, 5, 1 as inputs. What does printf() in line 23 output?
+5. Given 2, 7, 1 as inputs. What is the value of the variable in line 17?
+6. Explain what the nFermat() function does in 10 words or less.
+
+
+
+
+REMINDERS:
+        DO NOT COMPILE AND EXECUTE THE PROGRAM!
+
+
+________________
+
+
+#include <math.h>
+#include <stdio.h>
+
+
+// This is a function prototype!
+int nFermat(int nNum, int nPrime);
+
+
+int main()
+{
+        int nInt, nPrime, nTheorem;
+        int cResponse;
+    
+        scanf("%d", &nInt);
+        scanf("%d", &nPrime);
+        printf("Proceed? (Yes = 1)\n");
+        scanf("%d", &cResponse);
+
+
+        nTheorem = nFermat(nInt, nPrime);
+
+
+        switch (cResponse)
+        {
+            case 1:
+                printf("TheoremOut: %d\n", nTheorem);
+                printf
+                (
+                    "Thus, (%.0f - 1) is a multiple of %d\n",
+                    pow(nInt, nPrime - 1), nPrime  
+                );
+                break;
+            default:
+                printf("Thank you!\n");
+        }
+
+
+        return 0;
+}
+
+
+int nFermat(int nNum, int nPrime)
+{
+        int nTheorem, nTerm;
+        // pow(base, exponent)
+        // pow(2, 3) == 2^3 == 8.000 ...
+        nTerm = pow(nNum, nPrime - 1);  
+        nTheorem = nTerm % nPrime;  
+   
+        return nTheorem;
+}
