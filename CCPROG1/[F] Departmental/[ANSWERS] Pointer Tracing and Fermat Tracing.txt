@@ -1,0 +1,19 @@
+﻿Pointer Tracing Answers
+
+
+1) X = 3, Y = 4, Z = 12;
+2) 4, 4, 7
+3) 4, 1, 17
+
+
+4) 3, 1, 7
+    3, 0, 17
+
+
+Fermat Tracing Answers
+1) Thus, (4 - 1) is a multiple of 3
+2) 1
+3) Thank you!
+4) Thus, (16 - 1) is a multiple of 5
+5) Thus, (64 - 1) is a multiple of 7
+6) Returns 1 if inputs satisfy theorem, not 1 if otherwise.

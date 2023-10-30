@@ -1,0 +1,60 @@
+﻿CCPROG1 Reviewer - Tracing (T1 SY23-24)
+
+
+Concepts Tackled: functions, conditionals, pointers
+ 
+Instructions:
+
+
+Given the function changeVal(), trace the program to determine the output of main().
+
+
+In doing so, you must provide the answers the following questions:
+
+
+1. What are the initial values of each pointer in the code?
+2. What is the output of the first printf()?
+3. What is the output of the second printf()?
+4. What would the main()'s output be if "x, y, z" were all defined with an integer value of 3?
+
+
+REMINDERS:
+        DO NOT COMPILE AND EXECUTE THE PROGRAM!
+
+
+
+
+________________
+
+
+#include <stdio.h>
+
+
+void changeVal(int *nVal1, int *nVal2, int *nVal3)
+{
+        *nVal1 *= 2.5;
+        *nVal2 /= 3;
+}
+
+
+int main()
+{
+        int x, y, z;
+        int *X, *Y, *Z;
+    
+        x = 4, y = 12, z = 3;
+        X = &z;
+        Y = &x;
+        Z = &y;
+   
+        changeVal(X, &y, &x);
+        printf("%d, %d, %d\n", x, y, z);
+
+
+        if (Z < X)
+            changeVal(&z, Z, Y);
+            printf("%d, %d, %d\n", x, y, z);
+
+
+        return 0;
+}
